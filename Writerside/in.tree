@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="in"
+                 name="Nova Canvas"
+                  start-page="About.md">
+
+    <toc-element topic="About.md"/>
+    <toc-element topic="Installation.md"/>
+    <toc-element topic="Basic-usage.md"/>
+    <toc-element topic="Configuration.md">
+        <toc-element topic="Toolbar.md"/>
+        <toc-element topic="Character-count.md"/>
+        <toc-element topic="Image-uploads.md"/>
+        <toc-element topic="Styling.md"/>
+    </toc-element>
+    <toc-element topic="Tools.md"/>
+    <toc-element topic="Releases.md"/>
+</instance-profile>

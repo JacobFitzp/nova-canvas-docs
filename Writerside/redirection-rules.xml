@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="40af2a3e">
+        <description>Created after removal of "Empty MD Topic" from Nova Canvas</description>
+        <accepts>Empty-MD-Topic.html</accepts>
+    </rule>
+    <rule id="8ec9b6f">
+        <description>Created after removal of "Installation" from Nova Canvas</description>
+        <accepts>starter.html</accepts>
+    </rule>
+    <rule id="7c40e49a">
+        <description><![CDATA[Created after removal of "<Tools.md>" from Nova Canvas]]></description>
+        <accepts>Tools.html</accepts>
+    </rule>
+</rules>
