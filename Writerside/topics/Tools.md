@@ -33,28 +33,46 @@ Toggle the selected text to a h3.
 
 **Toolbar name:** `blockquote`
 
+Insert a blockquote.
+
 ## Code Block
 
 **Toolbar name:** `codeBlock`
+
+Insert a code block.
+
+### Syntax highlighting
+
+Uses [Lowlight](https://github.com/wooorm/lowlight) for automatic syntax highlighting, you will need to [include the CSS 
+on your applications front-end](https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css). 
+Canvas uses GitHub dark in the editor itself.
 
 ## Bold
 
 **Toolbar name:** `bold`
 
+Toggle the selected text to bold.
+
 ## Italic
 
 **Toolbar name:** `italic`
+
+Toggle the selected text to italic.
 
 ## Strikethrough
 
 **Toolbar name:** `strikethrough`
 
+Toggle the selected text to strikethrough.
+
 ## Underline
 
 **Toolbar name:** `underline`
 
+Toggle the selected text to underline.
+
 ## Separator
 
-**Toolbar name:** `|` or `separator`
+**Toolbar name:** `separator`
 
-Purely visual divider, can be used in the toolbar to seperate sets of tools.
+Purely visual divider, can be used in the toolbar to separate sets of tools.

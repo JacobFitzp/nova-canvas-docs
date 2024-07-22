@@ -1,12 +1,12 @@
 # Character count
 
-To show a character or word count use either `->withCharacterCount()` or `->withWordCount()`.
+To show a character or word count use either `->characterCount()` or `->wordCount()`.
 
 ## Characters
 
 ```PHP
 Canvas::make('Content')
-    ->withCharacterCount(),
+    ->characterCount()
 ```
 
 ![Screenshot 2024-07-12 at 17.02.49.png](Screenshot_2024-07-12_at_17.02.49.png)
@@ -15,7 +15,7 @@ Canvas::make('Content')
 
 ```PHP
 Canvas::make('Content')
-    ->withWordCount(),
+    ->wordCount()
 ```
 
 ![Screenshot 2024-07-12 at 17.02.34.png](Screenshot_2024-07-12_at_17.02.34.png)

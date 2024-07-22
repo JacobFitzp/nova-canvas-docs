@@ -2,4 +2,4 @@
 
 ## v1.0.0
 
-Initial release of Canvas.
+- Initial release of Canvas.

@@ -2,17 +2,23 @@
 
 ## Requirements
 
-- PHP 8.3+
+- PHP 8.2+
 - Laravel 11
 - Nova 4
 
 ## Composer
 
-You can install Canvas via composer:
+The best way to install Canvas is via composer:
 
-```Bash
+```Shell
 composer require jacobfitzp/nova-canvas
 ```
 
-And that's it! You're good to go, make something awesome.
+Finally, publish the config file:
+
+```Shell
+php artisan vendor:publish --tag=nova-canvas
+```
+
+And that's it! You're good to go, make something awesome...
 
