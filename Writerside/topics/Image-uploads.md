@@ -1,12 +1,43 @@
 # Image uploads
 
+## Set the disk
+
 By default, Canvas will attempt to use the disk defined in `nova.storage-disk` config.
 
-## Set the disk
+You can override this using the `->disk(...)` method:
+
+```PHP
+Canvas::make('Content')
+    ->disk('public')
+```
+
+You can also pass a path as the optional second parameter:
+
+```PHP
+Canvas::make('Content')
+    ->disk('public', 'images')
+```
 
 ## Optimisation
 
+Canvas uses [Spatie image optimizer](https://github.com/spatie/laravel-image-optimizer) to automatically optimise 
+uploaded images, which is essential for performance on your applications front-end.
 
+<procedure title="Configure image optimisation">
+<step>
+Publish the config file:
+<code-block lang="bash">
+php artisan vendor:publish --provider="Spatie\LaravelImageOptimizer\ImageOptimizerServiceProvider"
+</code-block>
+</step>
+<step>
+Update <code>config/image-optimizer.php</code>
+</step>
+</procedure>
+
+<warning>
+Image optimisation might not work out the box, <a href="https://github.com/spatie/image-optimizer?tab=readme-ov-file#optimization-tools">read the Spatie docs</a> to set up the optimisation tools on your system.
+</warning>
 
 ## Using your own endpoint
 
@@ -18,7 +49,8 @@ You can simply change the endpoint path in the `nova-canvas.images.endpoint` con
 Your endpoint should accept a POST request with the following:
 
 - $FILE (`image`) - The image to upload.
-- $POST (`disk`) - The disk to upload the image to, passed along when you do `->disk(...)`
+- $POST (`disk`) - The disk to upload images to.
+- $POST (`path`) - The path to upload images to.
 
 If the upload is successful it should respond with `200 OK` and a public path to the uploaded image as JSON: 
 ```json

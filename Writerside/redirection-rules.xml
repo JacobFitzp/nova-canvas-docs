@@ -22,4 +22,8 @@
         <description>Created after removal of "Format" from Nova Canvas</description>
         <accepts>Format.html</accepts>
     </rule>
+    <rule id="7f1611b2">
+        <description>Created after removal of "Extending" from Nova Canvas</description>
+        <accepts>Extending.html</accepts>
+    </rule>
 </rules>

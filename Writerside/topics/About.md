@@ -6,18 +6,9 @@ Canvas is 100% free and community maintained, built from the ground up to look a
 
 Under the hood Canvas is built using [TipTap](https://tiptap.dev/)
 
-## Features
+## What it looks like
 
-So what makes Canvas great? 
-
-- Image uploads
-- Text formatting
-- Headings
-- Links
-- Tables
-- Snippets
-- Variables
-- Code blocks - With syntax highlighting
+![Screenshot 2024-07-28 at 20.42.55.png](Screenshot_2024-07-28_at_20.42.55.png)
 
 ## Contributors
 
