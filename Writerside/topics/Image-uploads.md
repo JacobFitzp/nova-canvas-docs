@@ -41,16 +41,16 @@ Image optimisation might not work out the box, <a href="https://github.com/spati
 
 ## Using your own endpoint
 
-The build-in endpoint should work fine for most use-cases, but its completely replaceable if you want to add
+The built-in endpoint should work fine for most use-cases, but its completely replaceable if you want to add
 additional functionality.
 
 You can simply change the endpoint path in the `nova-canvas.images.endpoint` config.
 
 Your endpoint should accept a POST request with the following:
 
-- $FILE (`image`) - The image to upload.
-- $POST (`disk`) - The disk to upload images to.
-- $POST (`path`) - The path to upload images to.
+- $_FILE (`image`) - The image to upload.
+- $_POST (`disk`) - The disk to upload images to.
+- $_POST (`path`) - The path to upload images to.
 
 If the upload is successful it should respond with `200 OK` and a public path to the uploaded image as JSON: 
 ```json
