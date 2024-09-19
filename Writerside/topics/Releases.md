@@ -1,5 +1,9 @@
 # Releases
 
+## v1.0.2
+
+- Fix "null" image path bug
+
 ## v1.0.1
 
 - Add default toolbar preset
