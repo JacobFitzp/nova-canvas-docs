@@ -1,5 +1,11 @@
 # Releases
 
+## v1.0.3
+
+- Add `scrollable` option
+- Update toolbar to be sticky
+- Update dependencies
+
 ## v1.0.2
 
 - Fix "null" image path bug
