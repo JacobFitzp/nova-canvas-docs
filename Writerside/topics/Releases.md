@@ -1,5 +1,10 @@
 # Releases
 
+## v1.0.4
+
+- Add clear formatting (`clearFormat`) tool
+- Update styling of toolbar
+
 ## v1.0.3
 
 - Add `scrollable` option

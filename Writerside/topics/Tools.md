@@ -83,6 +83,12 @@ Toggle the selected text to strikethrough.
 
 Toggle the selected text to underline.
 
+### Clear formatting
+
+**Toolbar name:** `clearFormat`
+
+Clear any text styling that has been applied.
+
 ## Text alignment
 
 ### Align left
