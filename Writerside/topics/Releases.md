@@ -1,5 +1,13 @@
 # Releases
 
+## v1.0.5
+
+- Add `asHtml` option
+- Add `defaults` config for setting default options
+- Add `lowlight_stylsheet` config for setting stylesheet to use with code highlighting
+- Improve accessibility (add relevant aria attributes)
+- Improve link insertion modal
+
 ## v1.0.4
 
 - Add clear formatting (`clearFormat`) tool
