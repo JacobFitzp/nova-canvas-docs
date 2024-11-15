@@ -137,6 +137,20 @@ Undo the previous action.
 
 Redo the next action.
 
+## View
+
+### Show source
+
+<warning>
+    Beta feature - May contain bugs, lack full functionality, and be subject to change.
+</warning>
+
+**Toolbar name:** `showSource`
+
+Toggle displaying the source as HTML.
+
+Note that you cannot currently edit the source while in this view, it's intended for preview purposes only.
+
 ## Separator
 
 **Toolbar name:** `separator`

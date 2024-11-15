@@ -1,5 +1,13 @@
 # Releases
 
+## v1.0.6
+
+- Add `showSource` tool for previewing HTML (beta)
+- Add dependent field support
+- Disable `$showOnIndex`
+- Adjust toolbar styling
+- Update dependencies
+
 ## v1.0.5
 
 - Add `asHtml` option
