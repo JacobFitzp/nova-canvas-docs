@@ -57,6 +57,8 @@ Canvas uses GitHub dark in the editor itself.
 
 Insert an image.
 
+[Read more about configuring image uploads here](Images.md).
+
 ## Text styling
 
 ### Bold

@@ -1,6 +1,10 @@
 # Styling
 
-The styling of Canvas is intended to be consistent with the rest of Nova, so it looks and feels first-party.
+## Matching your front-end
+
+The editor content is styled using Tailwind and its [typography extension](https://v1.tailwindcss.com/docs/typography-plugin).
+
+If you want to apply custom styling you can [register your own assets](https://nova.laravel.com/docs/customization/assets.html), everything is nested under the `.nova-canvas-content` class.
 
 ## Scrollable
 
@@ -14,8 +18,6 @@ Canvas::make('Content')
 
 This will fix the editor at 400px, but you can pass in any height you like as an optional parameter.
 
-## Content
+## Character count
 
-The content is styled using [Tailwind's typography extension](https://v1.tailwindcss.com/docs/typography-plugin).
-
-If you want to apply custom styling you can [register your own assets](https://nova.laravel.com/docs/customization/assets.html), everything is nested under the `.nova-canvas-content` class.
+To show a character or word count use either `->characterCount()` or `->wordCount()`.

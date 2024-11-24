@@ -1,6 +1,8 @@
-# Image uploads
+# Images
 
-## Set the disk
+## Uploads
+
+### Set the disk
 
 By default, Canvas will attempt to use the disk defined in `nova.storage-disk` config.
 
@@ -18,9 +20,9 @@ Canvas::make('Content')
     ->disk('public', 'images')
 ```
 
-## Optimisation
+### Optimisation
 
-Canvas uses [Spatie image optimizer](https://github.com/spatie/laravel-image-optimizer) to automatically optimise 
+Canvas uses [Spatie image optimizer](https://github.com/spatie/laravel-image-optimizer) to automatically optimise
 uploaded images, which is essential for performance on your applications front-end.
 
 <procedure title="Configure image optimisation">
@@ -39,12 +41,12 @@ Update <code>config/image-optimizer.php</code>
 Image optimisation might not work out the box, <a href="https://github.com/spatie/image-optimizer?tab=readme-ov-file#optimization-tools">read the Spatie docs</a> to set up the optimisation tools on your system.
 </warning>
 
-## Using your own endpoint
+### Using your own endpoint
 
 The built-in endpoint should work fine for most use-cases, but its completely replaceable if you want to add
 additional functionality.
 
-You can simply change the endpoint path in the `nova-canvas.images.endpoint` config.
+You can simply change the endpoint path in the `nova-canvas.images_endpoint` config.
 
 Your endpoint should accept a POST request with the following:
 
@@ -52,14 +54,14 @@ Your endpoint should accept a POST request with the following:
 - $_POST (`disk`) - The disk to upload images to.
 - $_POST (`path`) - The path to upload images to.
 
-If the upload is successful it should respond with `200 OK` and a public path to the uploaded image as JSON: 
+If the upload is successful it should respond with `200 OK` and a public path to the uploaded image as JSON:
 ```json
 { "path": "images/my-image.jpg" }
 ```
 
 If something goes wrong it should respond with `422 Unprocessable Content` or `500 Internal Server Error`, you can also provide an error message as JSON:
 ```json 
-{ "error": "Image must be smaller than 10MB" }
+{ "message": "Image must be smaller than 10MB" }
 ```
 
 <warning>

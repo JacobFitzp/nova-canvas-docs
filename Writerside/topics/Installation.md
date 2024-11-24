@@ -21,4 +21,3 @@ php artisan vendor:publish --tag=nova-canvas
 ```
 
 And that's it! You're good to go, make something awesome...
-

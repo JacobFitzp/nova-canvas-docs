@@ -1,5 +1,10 @@
 # Releases
 
+## v1.1.0
+
+- Add tool for inserting tables (beta)
+- Add ability to adjust size and position of images
+
 ## v1.0.6
 
 - Add `showSource` tool for previewing HTML (beta)

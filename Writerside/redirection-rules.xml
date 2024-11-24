@@ -26,4 +26,16 @@
         <description>Created after removal of "Extending" from Nova Canvas</description>
         <accepts>Extending.html</accepts>
     </rule>
+    <rule id="6139ef46">
+        <description>Created after removal of "Image uploads" from Nova Canvas</description>
+        <accepts>Image-uploads.html</accepts>
+    </rule>
+    <rule id="2f0a0fa9">
+        <description>Created after removal of "Character count" from Nova Canvas</description>
+        <accepts>Character-count.html</accepts>
+    </rule>
+    <rule id="71aec6fa">
+        <description>Created after removal of "Matching your front-end" from Nova Canvas</description>
+        <accepts>Mathing-your-front-end.html</accepts>
+    </rule>
 </rules>

@@ -11,4 +11,8 @@ Canvas::make('Content')
 
 You will also need to add a `json` cast for this to work properly.
 
+<warning>
+    Beta feature - May contain bugs, lack full functionality, and be subject to change.
+</warning>
+
 [Read more about outputting JSON vs HTML.](https://tiptap.dev/docs/guides/output-json-html#option-1-json)
