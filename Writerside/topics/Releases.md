@@ -1,5 +1,9 @@
 # Releases
 
+## v1.1.1
+
+- Make field expandable (adds `alwaysShow`, `shouldShow` options for detail view)
+
 ## v1.1.0
 
 - Add tool for inserting tables (beta)
