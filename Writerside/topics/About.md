@@ -11,4 +11,5 @@ Under the hood Canvas is built using [TipTap](https://tiptap.dev/)
 ## Contributors
 
 - Jacob Fitzpatrick (@JacobFitzp)
-- @Tarpsvo
+- Tarvo R. (@Tarpsvo)
+- Tomáš Douděra (@tomas-doudera)
