@@ -125,6 +125,12 @@ Insert an ordered list.
 
 Insert a bullet point list.
 
+## Table
+
+**Toolbar name:** `table`
+
+Insert a table.
+
 ## History
 
 ### Undo
