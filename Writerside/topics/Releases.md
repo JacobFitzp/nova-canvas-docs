@@ -1,5 +1,11 @@
 # Releases
 
+## v1.1.2
+
+- Fix image width and alignment not persisting after save
+- Add `FormEvents` mixin to form field
+- Update dependencies 
+
 ## v1.1.1
 
 - Make field expandable (adds `alwaysShow`, `shouldShow` options for detail view)
