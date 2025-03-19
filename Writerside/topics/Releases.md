@@ -1,12 +1,9 @@
 # Releases
 
-## v1.2.0
+## v1.1.3
 
-- Add support for custom plugins
-- Add the ability to copy & paste, and drag & drop images into the editor
-- Add tool for inserting variables
-- Improve table insert tool, fixed table styling, and added ability to modify table layouts
-- Improve link tool, can now specify additional attributes such as `target` and `rel`
+- Fix table styling
+- Improve table tool (can now resize and adjust tables)
 
 ## v1.1.2
 
